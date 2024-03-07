@@ -1,0 +1,30 @@
+.containerG {
+    height: 700px;
+    width: 75;
+    padding: 1em;
+    display: grid;
+    margin: 1em;
+  
+    grid-template-areas: "two one ";
+
+    gap: 1em;
+   
+    background-color: rgba(250, 250, 243, 0.867);
+}
+.oneG {
+    grid-area: one;
+    background: rgb(14,168,196);
+    width: 40px;
+
+}
+.twoG{
+    grid-area: two;
+    background: rgb(14,168,196);
+background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+width: auto;
+
+}
+.img{
+    margin-left: 80px;
+    margin-top: 50px;
+}
