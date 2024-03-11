@@ -1,8 +1,43 @@
-.background-image{
-   
-    background-color: aqua;
-    display: flex;
-    width: 100%;
-    height: 100%;
 
+body{
+   
+   background: linear-gradient(to bottom, #33ccff 0%, #66ff99 100%);;
+   background-repeat: no-repeat;
+   color: black;
+   height: 680px;
+
+}
+.container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+       
+       
+}
+
+
+.states{
+    margin-left: 140%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.login{
+    
+    margin-left: 60%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.INFO{
+    font-size: 100PX;
+    font-style: italic;
+    text-align: center;
+    margin-top: 3%;
+   
+}
+.image{
+    margin-left: 30%;
+    margin-top: 0%;
 }
