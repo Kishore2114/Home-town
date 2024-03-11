@@ -1,6 +1,6 @@
 .containerG {
-    height: 700px;
-    width: 75;
+    height: auto;
+    width: auto;
     padding: 1em;
     display: grid;
     margin: 1em;
@@ -13,8 +13,8 @@
 }
 .oneG {
     grid-area: one;
-    background: rgb(14,168,196);
-    width: 40px;
+   background: rgb(14,168,196);
+    
 
 }
 .twoG{
