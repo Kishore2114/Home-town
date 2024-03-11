@@ -1,58 +1,63 @@
-*{
-    
-}
 .containerG {
     height: 1000px;
     width: 1000px;
     padding: 1em;
     display: grid;
     margin: 1em;
-  
+
     grid-template-areas: "two one three four";
 
     gap: 1em;
+    background-color: white;
 }
+
 .oneG {
     grid-area: one;
-   background: rgb(14,168,196);
-   width: 100%;
-height: 60%;
-    
+    background: rgb(14, 168, 196);
+    width: 100%;
+    height: 60%;
+
 
 }
-.twoG{
+
+.twoG {
     grid-area: two;
-    background: rgb(14,168,196);
-background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
-width: 100%;
-height: 60%;
+    background: rgb(14, 168, 196);
+    background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    width: 100%;
+    height: 60%;
 
 }
-.threeG{
+
+.threeG {
     grid-area: three;
-    background: rgb(14,168,196);
-background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
-width: 100%;
-height: 60%;
+    background: rgb(14, 168, 196);
+    background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    width: 100%;
+    height: 60%;
 
 }
-.fourG{
+
+.fourG {
     grid-area: four;
-    background: rgb(14,168,196);
-background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
-width: 100%;
-height: 60%;
+    background: rgb(14, 168, 196);
+    background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    width: 100%;
+    height: 60%;
 
 }
-.img{
+
+.img {
     margin-left: 0px;
     margin-top: 50px;
 }
-.text{
-    text-align: center  ;
+
+.text {
+    text-align: center;
 }
-.home{
-    
+
+.home {
+
     border: 1px;
     background-color: aqua;
     margin-left: 20px;
